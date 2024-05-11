@@ -1,0 +1,54 @@
+{
+  "dataPrompt": {
+    "columns": [{
+      "columnId": "8D0AA1C6-25BF-4BAF-897B-A5231A572B7B",
+      "displayName": "input:",
+      "isInput": true
+    }, {
+      "columnId": "B399118A-76E9-42EC-898A-B6EC21F3CD4C",
+      "displayName": "output:"
+    }]
+  },
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-1.5-pro-latest",
+    "candidateCount": 1,
+    "topP": 0.95,
+    "maxOutputTokens": 8192,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+    }],
+    "responseMimeType": "text/plain"
+  },
+  "testExamples": [{
+    "inputBindings": {
+      "8D0AA1C6-25BF-4BAF-897B-A5231A572B7B": "escreva um plano de estudo com base nas disciplinas  que serão cobradas:\na) 10 (dez) questões de Conhecimentos Específicos;\nb) 10 (dez) questões de Língua Portuguesa;\nc) 10 (dez) questões de Legislação;\nd) 10 (dez) questões de Raciocínio Lógico.\n\nElabore simulado com questões e após coloque as questões com seus respectivos gabaritos.\n\n\n"
+    },
+    "modelResponses": [{
+      "response": "## Plano de Estudo para Concurso\n\nEste plano de estudo visa otimizar sua preparação para a prova, dividindo as disciplinas em semanas e incluindo a resolução de simulados para melhor acompanhamento do seu progresso. \n\n**Duração:** 4 semanas\n\n**Material Necessário:**\n\n* Apostilas, livros ou cursos online específicos para cada disciplina.\n* Cadernos para anotações e resolução de exercícios.\n* Canetas, lápis e marca-texto.\n* Simulados (disponibilizados neste plano e outros que você encontrar).\n\n**Cronograma Semanal:**\n\n**Semana 1: Conhecimentos Específicos**\n\n* **Dias 1-3:** Revisar conceitos básicos e aprofundar os temas mais importantes.\n* **Dia 4:** Resolver exercícios de fixação.\n* **Dia 5:** Realizar o Simulado 1 de Conhecimentos Específicos (disponibilizado abaixo).\n* **Dia 6:** Analisar o Simulado 1, revisando os erros e reforçando os acertos.\n* **Dia 7:** Descanso.\n\n**Semana 2: Língua Portuguesa**\n\n* **Dias 1-3:** Revisar gramática, interpretação de texto e redação.\n* **Dia 4:** Resolver exercícios de fixação.\n* **Dia 5:** Realizar o Simulado 1 de Língua Portuguesa (disponibilizado abaixo).\n* **Dia 6:** Analisar o Simulado 1, revisando os erros e reforçando os acertos.\n* **Dia 7:** Descanso.\n\n**Semana 3: Legislação**\n\n* **Dias 1-3:** Estudar a legislação específica cobrada no edital.\n* **Dia 4:** Resolver exercícios de fixação.\n* **Dia 5:** Realizar o Simulado 1 de Legislação (disponibilizado abaixo).\n* **Dia 6:** Analisar o Simulado 1, revisando os erros e reforçando os acertos.\n* **Dia 7:** Descanso.\n\n**Semana 4: Raciocínio Lógico**\n\n* **Dias 1-3:** Revisar lógica proposicional, argumentação e matemática básica.\n* **Dia 4:** Resolver exercícios de fixação.\n* **Dia 5:** Realizar o Simulado 1 de Raciocínio Lógico (disponibilizado abaixo).\n* **Dia 6:** Analisar o Simulado 1, revisando os erros e reforçando os acertos.\n* **Dia 7:** Descanso e Revisão Geral.\n\n**Simulados:**\n\n**Simulado 1 - Conhecimentos Específicos (10 questões)**\n\n*Obs: As questões abaixo são apenas exemplos. Você deve pesquisar e elaborar questões específicas para a área do concurso que você prestará.*\n\n1.  **(Assunto X)** Detalhe a diferença entre [Conceito A] e [Conceito B].\n2.  **(Assunto Y)** Explique como [Processo X] funciona e cite exemplos de sua aplicação.\n3.  **(Assunto Z)** Quais são as principais características de [Teoria A]?\n4.  **(Assunto X)** Cite três exemplos de [Ferramenta X] e descreva suas funções.\n5.  **(Assunto Y)** Descreva as etapas de [Procedimento Y].\n6.  **(Assunto Z)** Compare [Método A] e [Método B], destacando suas vantagens e desvantagens.\n7.  **(Assunto X)** Qual a importância de [Conceito C] para [Área de Estudo]?\n8.  **(Assunto Y)** Explique a relação entre [Fator A] e [Fator B] em [Contexto Y].\n9.  **(Assunto Z)** Quais são os desafios enfrentados em [Situação Z]?\n10. **(Assunto X)** Apresente soluções para [Problema X] utilizando [Método Y].\n\n**Simulado 1 - Língua Portuguesa (10 questões)**\n\n1.  **(Gramática)** Assinale a alternativa em que a concordância verbal está correta:\n    a)  Fazem dez anos que trabalho aqui.\n    b)  Devem haver muitos candidatos inscritos.\n    c)  Haviam muitas pessoas na fila.\n    d)  Existem muitos problemas a serem resolvidos.\n2.  **(Interpretação de Texto)** Leia o trecho abaixo e responda à questão:\n    “[Trecho de texto]”\n    Qual a ideia central do texto?\n3.  **(Gramática)** Assinale a alternativa em que a regência verbal está correta:\n    a)  Aspiro um cargo público.\n    b)  Assisti o filme ontem.\n    c)  Obedeço o regulamento.\n    d)  Prefiro estudar do que trabalhar.\n4.  **(Interpretação de Texto)** Leia o poema abaixo e responda à questão:\n    “[Poema]”\n    Qual a figura de linguagem presente no verso “[Verso do poema]”?\n5.  **(Gramática)** Assinale a alternativa em que a crase está empregada corretamente:\n    a)  Vou à Bahia.\n    b)  Refiro-me àquele livro.\n    c)  Cheguei à casa tarde.\n    d)  Ele foi à pé para o trabalho.\n6.  **(Interpretação de Texto)** Leia a charge abaixo e responda à questão:\n    “[Charge]”\n    Qual a crítica social presente na charge?\n7.  **(Gramática)** Assinale a alternativa em que a pontuação está correta:\n    a)  Maria, você está bem?\n    b)  Comprei, pão, leite e ovos.\n    c)  Ele chegou cansado, e foi dormir.\n    d)  Apesar da chuva, fui ao cinema.\n8.  **(Interpretação de Texto)** Leia o anúncio publicitário abaixo e responda à questão:\n    “[Anúncio publicitário]”\n    Qual o público-alvo do anúncio?\n9.  **(Gramática)** Assinale a alternativa em que a ortografia está correta:\n    a)  excessão\n    b)  paralização\n    c)  beneficiente\n    d)  consciência\n10. **(Redação)** Escreva um texto dissertativo-argumentativo sobre o seguinte tema: “[Tema da redação]”.\n\n**Simulado 1 - Legislação (10 questões)**\n\n*Obs: As questões abaixo são apenas exemplos. Você deve pesquisar e elaborar questões específicas para a legislação cobrada no concurso que você prestará.*\n\n1.  **(Artigo X da Lei Y)** Descreva o que o Artigo X da Lei Y dispõe sobre [Assunto da Lei].\n2.  **(Lei Z)** Quais são as penalidades previstas na Lei Z para [Infração]?\n3.  **(Decreto W)** Detalhe as competências do órgão [Órgão] segundo o Decreto W.\n4.  **(Lei Y)** Cite três exemplos de [Situação] que se enquadram na Lei Y.\n5.  **(Decreto W)** Diferencie [Conceito A] de [Conceito B] de acordo com o Decreto W.\n6.  **(Lei Z)** Explique como [Procedimento] deve ser realizado segundo a Lei Z.\n7.  **(Artigo X da Lei Y)** Quais são os requisitos para [Solicitação] conforme o Artigo X da Lei Y?\n8.  **(Lei Z)** Descreva o processo de [Recurso] previsto na Lei Z.\n9.  **(Decreto W)** Qual a finalidade da criação do [Órgão] segundo o Decreto W?\n10. **(Lei Y)** Cite três exemplos de [Documento] que devem ser apresentados para [Finalidade] de acordo com a Lei Y.\n\n**Simulado 1 - Raciocínio Lógico (10 questões)**\n\n1.  **(Lógica Proposicional)** Se A é verdadeira e B é falsa, qual o valor lógico de A → B?\n2.  **(Argumentação)** Identifique a falácia presente no seguinte argumento: “[Argumento]”.\n3.  **(Matemática Básica)** Qual o valor de X na equação 2X + 5 \u003d 11?\n4.  **(Lógica Proposicional)** Construa a tabela verdade para a proposição (A ∧ B) → C.\n5.  **(Argumentação)** Analise o argumento abaixo e determine se é válido ou inválido:\n    Premissa 1: Todos os gatos são mamíferos.\n    Premissa 2: Mimi é um gato.\n    Conclusão: Logo, Mimi é um mamífero.\n6.  **(Matemática Básica)** Calcule a área de um retângulo com base 5 cm e altura 8 cm.\n7.  **(Lógica Proposicional)** Simplifique a expressão lógica ¬(A ∨ ¬B).\n8.  **(Argumentação)** Identifique o tipo de argumento utilizado: “[Argumento]”.\n9.  **(Matemática Básica)** Qual o valor de 25% de 200?\n10. **(Lógica Proposicional)** Se A → B é verdadeira e B é falsa, qual o valor lógico de A?\n\n**Gabaritos:**\n\n**Simulado 1 - Conhecimentos Específicos:**\n\n*As respostas dependem do conteúdo específico da sua área de estudo.*\n\n**Simulado 1 - Língua Portuguesa:**\n\n1.  d)  Existem muitos problemas a serem resolvidos.\n2.  *Depende do texto apresentado.*\n3.  b)  Assisti ao filme ontem.\n4.  *Depende do poema apresentado.*\n5.  a)  Vou à Bahia.\n6.  *Depende da charge apresentada.*\n7.  a)  Maria, você está bem?\n8.  *Depende do anúncio publicitário apresentado.*\n9.  d)  consciência\n10. *A correção da redação depende do texto produzido.*\n\n**Simulado 1 - Legislação:**\n\n*As respostas dependem da legislação específica cobrada no concurso.*\n\n**Simulado 1 - Raciocínio Lógico:**\n\n1.  Falsa\n2.  *Depende do argumento apresentado.*\n3.  X \u003d 3\n4.  *Construir a tabela verdade.*\n5.  Válido\n6.  40 cm²\n7.  ¬A ∧ B\n8.  *Depende do argumento apresentado.*\n9.  50\n10. Falsa\n\n**Observações:**\n\n* Este plano de estudo é apenas uma sugestão, você pode adaptá-lo às suas necessidades e disponibilidade de tempo.\n* É importante estudar com antecedência e de forma consistente para obter bons resultados.\n* Resolver exercícios e simulados é fundamental para testar seus conhecimentos e identificar seus pontos fracos.\n* Mantenha a calma e a concentração durante a prova.\n\nLembre-se: este plano de estudo é apenas um guia, você deve complementá-lo com materiais específicos para o concurso que você prestará. Boa sorte!",
+      "safetyRatings": [{
+        "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+        "probability": "NEGLIGIBLE"
+      }, {
+        "category": "HARM_CATEGORY_HATE_SPEECH",
+        "probability": "NEGLIGIBLE"
+      }, {
+        "category": "HARM_CATEGORY_HARASSMENT",
+        "probability": "NEGLIGIBLE"
+      }, {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "probability": "NEGLIGIBLE"
+      }]
+    }]
+  }]
+}
